@@ -1,0 +1,281 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #0a0219;
+    overflow: hidden;
+}
+.logo {
+    font-size: 25px;
+    color: #4CAF50; /* Green color for the name */
+    margin-right: 20px; /* Add some space to separate it from other links */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Style the active link (Home in this case) */
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+}
+/*For About Section*/
+/* Add your general styling here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 30%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(19, 9, 9, 0.1);
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 18px;
+    padding: 0 20px; /* Add padding to the left and right */
+    max-width: 100%; /* Set the maximum width to 100% */
+    text-align: left;
+}
+/*Skills*/
+/* Add your general styling here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(10, 10, 10);
+    border-radius: 50px;
+}
+
+#social-media {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+ .container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    text-align: center;
+    text-decoration: none;
+    color: #333; /* Color of the icon */
+    border: 1px solid #333; /* Border color for the icon */
+    border-radius: 50%; /* Make it a circle */
+    line-height: 40px; /* Vertically center the icon */
+    font-size: 20px; /* Adjust the icon size as needed */
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #333; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    border-color: #333; /* Border color on hover */
+  }
+  #projects {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #projects h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #projects p {
+    font-size: 18px;
+    margin-left:650px;
+    color: #555;
+  }
+  
+  #projects p.not-updated {
+    font-style: italic;
+    color: #888;
+  }
+
+  #contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+  
+  
